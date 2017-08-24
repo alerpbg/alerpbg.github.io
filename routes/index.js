@@ -26,7 +26,7 @@ var SESSIONS = {
 // GET home page
 exports.index = function(req, res){
   //res.render('story');
-  fs.createReadStream(path.join(__dirname, '..', 'views', 'story.html')).pipe(res);
+  fs.createReadStream(path.join(__dirname, '..', 'views', 'index.html')).pipe(res);
 };
 
 // POST home page
