@@ -1343,6 +1343,12 @@ border-radius: 20px;
     margin : auto;
 }
 
+.center_block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #program .row-fluid{
   padding-top: 5px;
   padding-bottom: 5px;
