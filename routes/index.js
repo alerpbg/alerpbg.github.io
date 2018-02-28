@@ -92,7 +92,7 @@ exports.apply = function(req, res){
     from: "potomaccodecamp@gmail.com",
     to: parentEmail,
     subject: "Thank you for applying to Potomac Code Camp!",
-    text: "Dear " + parentFirstName + " " + parentLastName + ":\nThank you for submiting an application to Potomac Code Camp on behalf of " + camperFirstName + " " + camperLastName +
+    text: "Dear " + parentFirstName + " " + parentLastName + ":\nThank you for submitting an application to Potomac Code Camp on behalf of " + camperFirstName + " " + camperLastName +
           ". "+camperFirstName + " has been confirmed for our "+SESSIONS[session].name+" session starting on "+SESSIONS[session].date+" and we look forward to coding together!\nPlease feel free to email us if you have any questions at all.\n\nSincerely,\nPotomac Code Camp"
   };
 
