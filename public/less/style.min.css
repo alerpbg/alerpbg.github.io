@@ -1343,11 +1343,6 @@ border-radius: 20px;
     margin : auto;
 }
 
-#ameen_thumbnail img {
-    display : block;
-    margin : auto;
-}
-
 .center_block {
     display: block;
     margin-left: auto;
@@ -1387,7 +1382,7 @@ border-radius: 20px;
 }
 
 #appFormContainer {
-	display: none;
+	display: block;
 }
 
 #ces_thumbnail {
